@@ -4,6 +4,12 @@
 
 The purpose of this investigation is to assess gross domestic product as a predictor of school life expectancy using a linear regression. School Life Expectancy is a measure of how many years of education a child of school entering age would receive during the life time if the school enrollment rates stay the same as of today [[1]](https://en.wikipedia.org/wiki/School_life_expectancy). Gross domestic product (GDP) is a monetary measure of the market value of all final goods and services produced in a period (quarterly or yearly) [[2]](https://en.wikipedia.org/wiki/Gross_domestic_product).
 
+**Learning Objectives**
+
+* Scrape data from a website using Requests and BeautifulSoup
+* Import / export data from different sources using Pandas
+* Build a linear regression model using Statsmodels
+
 **Method**
 
 School life expectancy was scraped from an archived [UN website]('http://web.archive.org/web/20110514112442/http://unstats.un.org/unsd/demographic/products/socind/education.htm'). GDP was collected from the [World Bank](http://data.worldbank.org/indicator/NY.GDP.MKTP.CD) and stored in the following file,  [API_NY.GDP.MKTP.CD_DS2_en_csv_v2.csv.](https://raw.githubusercontent.com/silkaitis/WealthEducation/master/API_NY.GDP.MKTP.CD_DS2_en_csv_v2.csv).  Logarithmic transforms were applied to scale the school life and GDP data.
